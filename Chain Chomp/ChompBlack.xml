@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Shay/Desktop/PCB/ChompBlack.sch</source>
+    <date>19/07/2018 09:08:34</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ChompBlack.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>R51</value>
+      <footprint>Resistors_SMD:R_2512_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B475A9B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B475BD0</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B475C31</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4DF423</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4DF492</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4DF4EF</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>Badgelife_shitty_connector</value>
+      <footprint>Shitty:Badgelife-Shitty-2x2</footprint>
+      <libsource lib="badgelife_shitty_connector" part="Badgelife_shitty_connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4DF6B5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="badgelife_shitty_connector" part="Badgelife_shitty_connector">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Badgelife_shitty_connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="badgelife_shitty_connector">
+      <uri>C:\Users\Shay\Downloads\Kicad\badgelife_shitty_connector.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R1-Pad2)">
+      <node ref="X1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(X1-Pad3)">
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="3" name="Net-(X1-Pad4)">
+      <node ref="X1" pin="4"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="X1" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+  </nets>
+</export>

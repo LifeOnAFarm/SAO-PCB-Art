@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Shy Guy PCB 3")(type KiCad)(uri "$(KIPRJMOD)/Shy Guy PCB 3.pretty")(options "")(descr ""))
+)
