@@ -5,7 +5,7 @@ Created in the lead up to DefCon 26 #BadgeLife
 
 Welcome to a collection of my PCB Shitty Add-On (SAO) files.
 
-Here you will find a svg images of the PCBs and all the schematics, gerbers and Kicad files. I recommend @MrTwinkleTwink's video on how to convert svg images to Kicad files using Inkscape if you want to make any board chances (https://youtu.be/61NFK9KW).
+Here you will find svg images, schematics, gerbers and all the Kicad files you need to edit and make your own SAO PCB. I recommend @MrTwinkleTwink's video on how to convert svg images to Kicad files using Inkscape if you want to make any board chances (https://youtu.be/61NFK9KW).
 
 # Chain Chomp
 
@@ -13,22 +13,23 @@ Here you will find a svg images of the PCBs and all the schematics, gerbers and 
 
 ## Components You Will Need:
 
-- 1 x SW-200D Tilt Switch
+- 1 x 0.1" 2x2 Female Headers
 
-- 3 x 0.1" 2x2 Female Headers
+- 5 x 1206 LEDS (Solder these with the top of the LED facing towards the PCB board)
 
-- 8 x 1206 LEDS (Solder these with the top of the LED facing towards the PCB board)
+- 1 x 2512 51 ohm Resistor
 
-- 1 x Keystone 1058 2032 Coincell Battery Holder
+# Shy Guy
 
-- 1 x CD4017BM Decade counter
+![BadgeImage](https://github.com/LifeOnAFarm/SAO-PCB-Art/blob/master/shy.png)
 
-- 1 x 0805 10K Resistor
+## Components You Will Need:
 
-- 1 x 0805 220 Resistor
+- 1 x 0.1" 2x2 Female Headers
 
-- 1 x Switch Slide JS202011SCQN 
+- 2 x 1206 LEDS (Solder these with the top of the LED facing towards the PCB board)
 
+- 1 x 2512 51 ohm Resistor
 
 ## Authors
 
